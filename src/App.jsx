@@ -1,4 +1,3 @@
-import "./App.css";
 import Card from "./Card.jsx";
 import sedans from "./images/icon-sedans.svg";
 import suvs from "./images/icon-suvs.svg";
