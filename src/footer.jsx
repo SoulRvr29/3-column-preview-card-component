@@ -6,7 +6,10 @@ const Footer = () => {
         Frontend Mentor
       </a>
       . Coded by
-      <a href="https://www.frontendmentor.io/profile/SoulRvr29">SoulRvr</a>.
+      <a href="https://www.frontendmentor.io/profile/SoulRvr29">
+        Paweł Chudecki
+      </a>
+      .
     </footer>
   );
 };
