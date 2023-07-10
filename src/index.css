@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  /*### Primary*/
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  /* ### Neutral */
+  --Transparent-white: hsla(0, 0%, 100%, 0.75); /*(paragraphs)*/
+  --Very-light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+body {
+  color: var(--Transparent-white);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--Very-light-gray);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+/************/
+/*** MAIN ***/
+/************/
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem;
+}
+h1 {
+  font-size: 2.5rem;
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+}
+.card {
+  max-width: 308px;
+  padding: 3rem;
+  display: grid;
+  gap: 30px;
+  line-height: 1.6;
+}
+.sedans {
+  background-color: var(--Bright-orange);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.suvs {
+  background-color: var(--Dark-cyan);
+}
+.luxury {
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+button {
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  border: 2px solid var(--Very-light-gray);
+  background-color: var(--Very-light-gray);
+  color: var(--Bright-orange);
+  max-width: 10rem;
+  margin-top: 3rem;
+}
+.suvs button {
+  color: var(--Dark-cyan);
+}
+.luxury button {
+  color: var(--Very-dark-cyan);
+}
+button:hover {
+  cursor: pointer;
+  background-color: unset;
+  color: var(--Very-light-gray);
+}
+
+/**************/
+/*** FOOTER ***/
+/**************/
+footer {
+  font-size: 0.8rem;
+  margin: 1rem;
+  text-align: center;
+  color: var(--Dark-cyan);
+}
+footer a {
+  color: var(--Dark-cyan);
+  margin: 0 4px;
+}
+footer a:hover {
+  color: var(--Bright-orange);
+}
+/*******************/
+/*** MEDIA QUERY ***/
+/*******************/
+@media screen and (max-width: 770px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    max-width: 500px;
+  }
+  .sedans {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  button {
+    margin-top: 0;
+  }
+}
