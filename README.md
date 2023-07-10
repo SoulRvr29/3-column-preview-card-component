@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/3-column-preview-card-component-SB5tuSNrVC)
 - Live Site URL: [Click here](https://soulrvr29.github.io/3-column-preview-card-component/)
 
 ### Built with
