@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Click here]([https://your-live-site-url.com](https://soulrvr29.github.io/3-column-preview-card-component/))
+- Live Site URL: [Click here]((https://soulrvr29.github.io/3-column-preview-card-component/))
 
 ### Built with
 
@@ -42,8 +42,8 @@ This is my first project created in React. I learned a lot of basics, like creat
 
 ### Useful resources
 
-- [Click]([https://www.example.com](https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane)) - This tutorial helped me a lot with deploying my Vite project on GitHub.
+- [Click]((https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane)) - This tutorial helped me a lot with deploying my Vite project on GitHub.
 
 ## Author
 
-- Frontend Mentor - [@SoulRvr29]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/SoulRvr29))
+- Frontend Mentor - [@SoulRvr29]((https://www.frontendmentor.io/profile/SoulRvr29))
